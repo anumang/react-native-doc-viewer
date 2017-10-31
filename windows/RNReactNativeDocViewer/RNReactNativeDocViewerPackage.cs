@@ -24,7 +24,7 @@ namespace Com.Reactlibrary.RNReactNativeDocViewer
         {
             return new List<INativeModule>
             {
-                new RNReactNativeDocViewerModule(),
+                new RNReactNativeDocViewerModule(reactContext),
             };
         }
 
